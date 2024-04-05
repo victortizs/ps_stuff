@@ -1,2 +1,2 @@
 # ps_stuff
-My own code snippets for daily repetitive tasks.
+My own code snippets for daily repetitive tasks, written in PowerShell.
