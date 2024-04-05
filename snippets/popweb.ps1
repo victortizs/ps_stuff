@@ -1,4 +1,3 @@
-```
 Function Pop-Web {
 <#
     .SYNOPSIS
@@ -43,4 +42,3 @@ Function Pop-Web {
         }
     }
 }
-```
