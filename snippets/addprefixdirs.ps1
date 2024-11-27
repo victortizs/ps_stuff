@@ -23,8 +23,8 @@ Function Add-PrefixDirs
     System.Object
     .NOTES
     Helpful content on:
-    https://stackoverflow.com/questions/78197645/how-can-i-reset-a-counter-within-each-subfolder-level-in-a-loop-that-access-recu
-    https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7.4
+    (1) https://stackoverflow.com/questions/78197645/how-can-i-reset-a-counter-within-each-subfolder-level-in-a-loop-that-access-recu
+    (2) https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/rename-item?view=powershell-7.4
     .LINK
     https://estudianteporahora.blog
     #>
