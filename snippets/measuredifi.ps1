@@ -1,5 +1,36 @@
 Function Measure-DiFi
 {
+    <#
+    .SYNOPSIS
+    Size the number of folders and/or files a given root directory has.
+    .DESCRIPTION
+    The function:
+    (1) asks for a path to a root dir or parent folder;
+    (2) prompts you to choose if you want to search for files, folders, or both of them;
+    (3) prompts you to choose if you want to show the output structure or display each name.
+    .PARAMETER FOLDER
+    Path to the folder/dir you want to analyse. Uses your current location '.\' by default.
+    .PARAMETER SEARCH
+    Accepts 'dirs', 'files', or 'both' as input. Looks for 'both' by default.
+    .PARAMETER DISPLAY
+    Accepts 'structure' or 'names' as input. Show 'names' by default.
+    .EXAMPLE
+    Measure-DiFi -Search Dirs -Display Names
+    .EXAMPLE
+    Measure-DiFi .\example\folder -Display Structure
+    .EXAMPLE
+    Measure-Difi
+    .INPUTS
+    System.String
+    .OUTPUTS
+    System.Object
+    .NOTES
+    Helpful content on:
+    https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object?view=powershell-7.4
+    .LINK
+    https://estudianteporahora.blog
+    #>
+
     [CmdletBinding(
         SupportsShouldProcess = $True
     )]
