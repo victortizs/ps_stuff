@@ -20,8 +20,8 @@ Function Pop-Web
     System.Diagnostics.Process
     .NOTES
     Helpful content on:
-    https://adamtheautomator.com/powershell-modules/#Installing_Modules
-    https://mikefrobbins.com/2013/07/04/how-to-create-powershell-script-modules-and-module-manifests/
+    (1) https://adamtheautomator.com/powershell-modules/#Installing_Modules
+    (2) https://mikefrobbins.com/2013/07/04/how-to-create-powershell-script-modules-and-module-manifests/
 
     Also remember you can create an alias in your PS profile for this function, to make it smoother.
     .LINK
